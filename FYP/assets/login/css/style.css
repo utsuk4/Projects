@@ -1,0 +1,39 @@
+body{font-family: 'Roboto', sans-serif;}
+.blue-over-wrapper{position:relative;}
+.blue-over{background:rgba(55,160,244,0.9);position:absolute;width:100%;height:100%;z-index:3;}
+.our-services{margin-top:90px;margin-bottom:90px;}
+.service-icons{color:#3368ff;font-size:2.75em;width:76px;min-height:100px;padding-top:52px;}
+.service-block{max-width:245px;margin-bottom:40px;}
+.service-block h3{color:#222;font-size: 16px;font-weight:700;text-transform: uppercase;}
+.service-block p{font-size:13px;font-weight:400;color:#222;line-height:19px;margin-top:23px;}
+#our-services-but{margin-top:28px;}
+.but-pink{box-shadow:1px 1px 3px #ff4081 !important; }
+.but-pink:hover{background:#ff4081;color:#fff;}
+
+@media (max-width: 768px) {
+  .navbar-collapse{background:#3593DF;}
+  .carousel-caption{display: none;}
+  .service-icons{padding-top:12px;}
+}
+
+
+
+  /*CSS code to make Bootstrap Carousel Fade*/
+ .carousel .item {
+        -webkit-transition: opacity 1s;
+        -moz-transition: opacity 1s;
+        -ms-transition: opacity 1s;
+        -o-transition: opacity 1s;
+        transition: opacity 1s;
+      }
+      .carousel .active.left, .carousel .active.right {
+        left:0;
+        opacity:0;
+        z-index:2;
+        }
+      .carousel .next, .carousel .prev {
+        left:0;
+        opacity:1;
+        z-index:1;
+      }
+/*Codes to Make Bootstrap Carousel Fade, Ends Here*/

@@ -1,0 +1,37 @@
+	
+	*{ margin:0; padding:0; box-sizing:border-box; }
+	
+	body{
+		background-color:#ccddff;
+	}
+
+	#body {
+		width:17em;
+		margin:10em;
+	}
+
+	
+	#list{
+		font-size:24px;
+		text-color: pink;
+		padding:.7em;
+	}
+	
+	#button{
+		padding:.5em;
+		margin-left:0;
+	}
+	
+	#button input{
+		cursor:pointer;
+	}
+	
+	.todo{
+		padding:.8em;
+		background-color:#e6f3ff;
+		border-bottom:#ccddff solid .3em;
+	}
+
+	input[type="text"], textarea{
+		width:100%;
+	}
